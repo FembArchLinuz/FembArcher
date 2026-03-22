@@ -36,7 +36,7 @@ What FembArcher does in the background is the code bellow.
 
 # Add pywal
 
-'  if ! grep -q 'cat \$HOME/.cache/wal/sequences' "$HOME/.bashrc"; then
+' if ! grep -q 'cat \$HOME/.cache/wal/sequences' "$HOME/.bashrc"; then
       echo 'if [[ -f "$HOME/.cache/wal/sequences" ]]; then' >> "$HOME/.bashrc"
       echo '    (cat $HOME/.cache/wal/sequences)' >> "$HOME/.bashrc"
       echo 'fi' >> "$HOME/.bashrc"
