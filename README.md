@@ -27,7 +27,7 @@ sudo apt install gnome-shell gnome-menus wget flatpak
 
 ## WARNING
 In the official ubuntu and fedora repo's uwufetch does not exist.
-Yet via git clone. Do in the terminal
+Yet via git clone, clone the repository. If you don't know how to clone repository and install it. Do in your terminal:
 
 ```bash
 git clone https://github.com/ThatOneCalculator/uwufetch.git
@@ -35,9 +35,8 @@ cd uwufetch
 sudo make install
 ```
 # Running the script
-If you wanna learn what the code does you can read fembarch.sh's source code.
-To run the script you first need to download fembarcher from this Git repo.
-Do in your terminal
+To run the script you first need to download Fembarcher from this Git repo.
+Do in your terminal:
 ```bash
 git clone https:/FembArchLinuz/FembArcher.git
 cd FembArcher
