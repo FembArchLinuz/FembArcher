@@ -84,7 +84,7 @@ install_flatpaks() {
 
 configure_fembpkg() { 
     git clone https://github.com/FembArchyyLinux/Fembpkg.git
-    chmod ~/Fembpkg/fembpkg.sh
+    chmod +x ~/Fembpkg/fembpkg.sh 
     mv ~/Fembpkg/fembpkg.sh ~/Fembpkg/fembpkg
     sudo mv ~/Fembpkg/fembpkg /usr/bin/fembpkg
 
